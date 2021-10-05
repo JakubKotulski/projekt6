@@ -1,11 +1,11 @@
 import BargainImage from './BargainImage'
 import './ImgSquare.css'
 
-const ImgSquare = ({className, img1, img2, heartImg, value}) => {
+const ImgSquare = ({className, img1, img2, withHeart }) => {
     return(
         <div className = {className} >
-            <BargainImage src1={img1} src2={heartImg} className = {value}/>
-            <BargainImage src1={img2} src2={heartImg} className = {value}/>
+            <BargainImage src={img1} withHeart={withHeart} />
+            <BargainImage src={img2} withHeart={withHeart} />
         </div>
     )
 }

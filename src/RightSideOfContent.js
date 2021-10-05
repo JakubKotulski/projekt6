@@ -1,16 +1,28 @@
-import ImgSquare from "./ImgSquare";
-import './RightSideOfContent.css'
+import BargainImage from "./BargainImage";
+import './RightSideOfContent.css';
 
 const RightSideOfContent = () => {
     return(
         <div className="right-side-of-content">
             <div className="flex">
-                <ImgSquare className = "img-square-column" img1 = "baner1.png" img2 = "baner2.png" value = "hidden"/>
-                <ImgSquare className = "img-square-row" img1 = "baner3.png" img2 = "baner4.png" heartImg = "heart.png" value="position"/>
+                <div className="img-square-column">
+                    <BargainImage src="/baner1.png" />
+                    <BargainImage src="/baner2.png" />
+                </div>
+                <div className="img-square-row">
+                    <BargainImage src="/baner3.png" withHeart={true}/>
+                    <BargainImage src="/baner4.png" withHeart={true}/>
+                </div>
             </div>
             <div className="flex">
-                <ImgSquare className = "img-square-row" img1 = "baner5.png" img2 = "baner6.png" heartImg="heart.png" value="position"/>
-                <ImgSquare className = "img-square-column" img1 = "baner7.png" img2 = "baner8.png" value = "hidden"/>
+            <div className="img-square-row">
+                    <BargainImage src="/baner5.png" withHeart={true}/>
+                    <BargainImage src="/baner6.png" withHeart={true}/>
+                </div>
+                <div className="img-square-column">
+                    <BargainImage src="/baner7.png" />
+                    <BargainImage src="/baner8.png" />
+                </div>
             </div>
         </div>
     )

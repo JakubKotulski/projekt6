@@ -1,10 +1,10 @@
 import './BargainImage.css'
 
-const BargainImage = ({src1, src2, className}) => {
+const BargainImage = ({ src, withHeart }) => {
     return(
         <div>
-            <img src={src1}></img>
-            <img className = {className} src={src2}></img>
+            <img src={src}></img>
+            {withHeart && <img className="position" src="heart.png" />}
         </div>
     )
 }
