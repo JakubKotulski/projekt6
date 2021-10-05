@@ -1,6 +1,6 @@
 import './App.css';
 import TopMenu from './Navbar';
-import Content from './content';
+import Content from './Content';
 
 function App() {
   return (
