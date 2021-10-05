@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+body{
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-bar{
+  display: flex;
+  padding: 30px 40px;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu{
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-bar-links{
+  padding: 10px 30px;
+  font-size: 17px;
+}
+
+.top-bar-links:hover{
+  cursor: pointer;
+}
+
+.logo-box{
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.circle{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #F4DE4D;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.content-box{
+  padding: 0px 40px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.left-bar{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-bar-link{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.left-bar-link:hover{
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-bar-link-text{
+  margin-left: 15px;
 }
+
+.h2-explore{
+  padding-bottom: 30px;
+}
+
+.img-square-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.img-square-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-bar-container{
+  display: flex;
+  padding: 0px 10px;
+}
+
+.img-square-column img{
+  height: 50%;
+  padding: 10px 10px;
+}
+
+.img-square-row img{
+  padding: 10px 10px;
+}
+
+#id1{
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 96%;
+  top: 20%;
+}
+
+#id2{
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 74%;
+  top: 20%;
+}
+
+#id3{
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 30%;
+  top: 78%;
+}
+
+#id4{
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 52%;
+  top: 78%;
+}
+
+.hover:hover{
+  cursor: pointer;
+}
+
+.bar-footer img{
+  width: 100%;
+}
+
+.bar-footer img:hover{
+  cursor: pointer;
+}
+
+.personal-icon{
+  width: 24px;
+  padding: 10px 15px;
+}
+
+.personal-icon:hover{
+  cursor: pointer;
+}
+
+/* .right-bar{
+  width: 90vw;
+} */
