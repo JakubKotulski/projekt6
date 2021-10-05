@@ -1,9 +1,11 @@
-import Links from './links';
-import Logo from './logo';
-import Personal from './poersonal';
-const TopBar = ({a, b, c, d}) => {
+import Links from './Links';
+import Logo from './Logo';
+import Personal from './Personal';
+import './Navbar.css'
+
+const TopMenu = () => {
     return(
-        <div className="top-bar">
+        <div className="top-menu">
             <Logo />
             <div className="menu">
             <Links  value = "products"/>
@@ -17,4 +19,4 @@ const TopBar = ({a, b, c, d}) => {
     )
 }
 
-export default TopBar;
+export default TopMenu;

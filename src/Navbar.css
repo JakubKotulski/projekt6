@@ -1,0 +1,10 @@
+.top-menu{
+    display: flex;
+    padding: 30px 40px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+  
+.menu{
+    display: flex;
+}

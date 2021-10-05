@@ -1,0 +1,13 @@
+.position{
+    position: relative;
+    bottom: 80%;
+    left: 75%;
+}
+
+.position:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}

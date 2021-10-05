@@ -1,0 +1,17 @@
+.left-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h2-explore{
+    padding-bottom: 30px;
+}
+
+.footer img{
+    width: 100%;
+  }
+  
+.footer img:hover{
+    cursor: pointer;
+}

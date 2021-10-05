@@ -1,0 +1,8 @@
+.personal-icon{
+    width: 24px;
+    padding: 10px 15px;
+}
+  
+.personal-icon:hover{
+    cursor: pointer;
+}

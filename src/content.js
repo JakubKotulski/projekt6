@@ -1,11 +1,12 @@
-import LeftBar from './left-bar'
-import RightBar from './right-bar';
+import LeftSideOfContent from './LeftSideOfContent'
+import RightSideOfContent from './RightSideOfContent';
+import './Content.css';
 
 const Content = () => {
     return(
         <div className="content-box">
-            <LeftBar />
-            <RightBar />
+            <LeftSideOfContent />
+            <RightSideOfContent />
         </div>
     )
 }

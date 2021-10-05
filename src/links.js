@@ -1,6 +1,8 @@
+import './Links.css';
+
 const Links = ({value}) => {
     return(
-        <div className="top-bar-links">
+        <div className="navbar-links">
             {value}
         </div>
     )

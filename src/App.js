@@ -1,11 +1,11 @@
 import './App.css';
-import TopBar from './top-bar';
+import TopMenu from './Navbar';
 import Content from './content';
 
 function App() {
   return (
     <div className="App">
-      <TopBar/>
+      <TopMenu/>
       <Content/>
     </div>
   );

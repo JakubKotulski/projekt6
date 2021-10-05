@@ -1,0 +1,17 @@
+.img-square-row{
+    display: flex;
+    flex-direction: row;
+}
+  
+.img-square-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-square-column img{
+    padding: 10px 10px;
+}
+  
+.img-square-row img{
+    padding: 10px 10px;
+}

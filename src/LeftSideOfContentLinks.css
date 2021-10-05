@@ -1,0 +1,13 @@
+.left-side-link{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+  
+.left-side-link:hover{
+    cursor: pointer;
+}
+  
+.left-side-link-text{
+    margin-left: 15px;
+}
